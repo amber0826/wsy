@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    background-image: url(./images/2.png);
+    background-size: cover;
+    opacity: 0.8;
+    color: #eee;
+}
+
+#wrapper {
+    margin: 0 auto;
+    width: 90%;
+    background: rgb(71, 58, 220);
+}
+
+#header .logo {
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+#header .icons {
+    height: 30px;
+    line-height: 30px;
+    display: flex;
+    font-size: 30px;
+    float: right;
+    background: #bde4fd;
+}
+
+#header .icons li {
+    margin: 0 30px;
+}
+
+.content h1 {
+    padding: 0 50px;
+}
+
+.content p {
+    padding: 0 50px;
+    width: 300px;
+}
+
+#banner .image img {
+    width: 80%;
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.posts img {
+    transition: transform 2s ease;
+    border-radius: 30px;
+}
+
+
+
+.actions {
+    padding: 0 50px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.features {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 30px;
+}
+
+.posts {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 30px;
+}
+
+#sidebar {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+#menu ul {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    line-height: 50px;
+    width: 80%;
+}
+
+#menu ul li a {
+    margin: 0 75px;
+    background: #bde4fd;
+    transition: transform 0.3s ease;
+}
+
+
